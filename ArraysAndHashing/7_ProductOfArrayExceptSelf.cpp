@@ -26,9 +26,9 @@ int main(){
 
     vector<int> nums = {1,2,4,6};
 
-    vector<int> ans = sol.productExceptSelf(nums);
+    vector<int> answer = sol.productExceptSelf(nums);
 
-    for(int& a:ans) cout<<a<<" ";
+    for(int& a:answer) cout<<a<<" ";
     cout<<endl;
 
     return 0;
